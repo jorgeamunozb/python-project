@@ -13,7 +13,6 @@ class RegistroMatricula:
         self.__estudiante = estudiante
         self.__calificaciones_count = 0
 
-        # Crear arreglo...
         self.__calificaciones = np.empty(shape = array_capacity, dtype= Calificacion) # Capacidad es igual a leer el archivo "array_capacity"      
         
     # Getters y setters
