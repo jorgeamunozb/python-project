@@ -1,16 +1,16 @@
 from materia import Materia
 from usuario import Usuario
 from registro_matricula import RegistroMatricula
-from numpy import np
+import numpy as np
 
 #Creamos la clase sistema  
 class Sistema:
-    def __init__(self, materias_count: int, usuarios_count: int, registros_count: int, materias_capacity: int, usuarios_capacity: int, registros_capacity: int):
-        self.__materias = np.empy(shape = materias_capacity, dtype = Materia ) # Arreglo materias
+    def __init__(self, materias_capacity: int, usuarios_capacity: int, registros_capacity: int):
+        self.__materias = np.empty(shape = materias_capacity, dtype = Materia ) # Arreglo materias
         self.__materias_count = 0
-        self.__usuarios = np.empy(shape = usuarios_capacity, dtype = Usuario) # Arreglo usuarios
+        self.__usuarios = np.empty(shape = usuarios_capacity, dtype = Usuario) # Arreglo usuarios
         self.__usuarios_count = 0
-        self.__registros = np.empy(shape = registros_capacity, dtype = RegistroMatricula) # Arreglo registros
+        self.__registros = np.empty(shape = registros_capacity, dtype = RegistroMatricula) # Arreglo registros
         self.__registros_count = 0
         
     # Metodos agregar materia, usuario y registro    
