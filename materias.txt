@@ -1,0 +1,21 @@
+id,nombre,creditos
+CAL01,Calculo Diferencial,5
+HIS02,Historia de la Arquitectura,4
+ECO03,Introduccion a la Economia,3
+ELE04,Electronica I,5
+FIL05,Filosofia,2
+QUI06,Quimica Organica,4
+CIR07,Analisis de Circuitos,5
+DER08,Derecho Constitucional,3
+PRO09,Lenguaje de Programacion I,4
+BIO10,Bioquimica,5
+GEO11,Geometria Analitica,4
+MEC12,Mecanica de Fluidos,5
+PSI13,Psicologia General,3
+ALG14,Algebra Abstracta,5
+IA15,Inteligencia Artificial,5
+CAL16,Calculo Integral,5
+INV17,Tecnicas de Investigacion,3
+INE18,Ingenieria Economica,4
+PRO19,Probabilidad y Estadistica,4
+DER20,Derecho Mercantil,3

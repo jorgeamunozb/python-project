@@ -1,0 +1,101 @@
+id,nombre_completo,cc,email,fecha_nacimiento,rol,extra1,extra2,extra3
+U001,Carlos Perez,54178532,carlos.perez@univ.edu,1999-07-22,Docente,Humanidades,2011-03-16,Facultad de Ciencias de la Salud
+U002,Jorge Lopez,26584671,jorge.lopez@univ.edu,1976-03-27,Estudiante,Derecho,True
+U003,Paula Fernandez,29620056,paula.fernandez@estudiantes.univ.edu,1990-01-06,Estudiante,Filosofía,False
+U004,Laura Torres,39248723,laura.torres@profesores.univ.edu,1988-08-16,Estudiante,Química,True
+U005,Paula Perez,79482182,paula.perez@estudiantes.univ.edu,1978-11-01,Estudiante,Filosofía,False
+U006,Luisa Sanchez,71049530,luisa.sanchez@profesores.univ.edu,1977-06-14,Docente,Ciencias de la Salud,2009-11-29,Facultad de Ciencias Exactas
+U007,Ana Sanchez,93613711,ana.sanchez@univ.edu,1988-11-12,Estudiante,Derecho,False
+U008,Carlos Martinez,54883086,carlos.martinez@univ.edu,1997-02-01,Docente,Ciencias de la Salud,2010-02-16,Facultad de Ingeniería
+U009,Maria Lopez,74217130,maria.lopez@estudiantes.univ.edu,1988-11-14,Docente,Ingeniería,2003-08-23,Facultad de Ciencias Exactas
+U010,Carlos Rodriguez,79720876,carlos.rodriguez@estudiantes.univ.edu,1971-05-23,Docente,Ingeniería,2010-07-02,Facultad de Ciencias de la Salud
+U011,Jorge Gomez,74928873,jorge.gomez@univ.edu,2003-04-08,Estudiante,Psicología,False
+U012,Andres Garcia,13197357,andres.garcia@estudiantes.univ.edu,2004-11-03,Docente,Ingeniería,2023-04-18,Facultad de Ciencias Exactas
+U013,Juan Garcia,47096136,juan.garcia@univ.edu,2002-02-27,Docente,Ingeniería,2009-06-05,Facultad de Humanidades
+U014,Juan Perez,45420505,juan.perez@estudiantes.univ.edu,1972-04-15,Docente,Ingeniería,2011-06-19,Facultad de Ciencias Exactas
+U015,Paula Garcia,68022115,paula.garcia@univ.edu,1983-01-27,Estudiante,Matemáticas,True
+U016,Luis Diaz,62063341,luis.diaz@univ.edu,2001-01-28,Estudiante,Matemáticas,True
+U017,Maria Torres,46441093,maria.torres@estudiantes.univ.edu,1981-04-21,Docente,Ciencias Sociales,2011-10-23,Facultad de Ingeniería
+U018,Luis Lopez,54882827,luis.lopez@univ.edu,2001-03-13,Estudiante,Arquitectura,True
+U019,Paula Rodriguez,80188160,paula.rodriguez@estudiantes.univ.edu,1997-11-23,Estudiante,Economía,True
+U020,Paula Diaz,13972929,paula.diaz@univ.edu,2000-04-06,Estudiante,Química,True
+U021,Laura Diaz,94453210,laura.diaz@estudiantes.univ.edu,1981-07-27,Estudiante,Química,True
+U022,Luisa Perez,65911071,luisa.perez@profesores.univ.edu,1999-03-03,Docente,Humanidades,2003-08-06,Facultad de Ingeniería
+U023,Luisa Gomez,50517391,luisa.gomez@profesores.univ.edu,1970-12-12,Estudiante,Derecho,False
+U024,Maria Lopez,79792218,maria.lopez@univ.edu,1973-05-29,Estudiante,Ingeniería de Sistemas,True
+U025,Jorge Gomez,12368976,jorge.gomez@univ.edu,1970-07-15,Docente,Ingeniería,2023-09-27,Facultad de Humanidades
+U026,Carlos Torres,42313135,carlos.torres@estudiantes.univ.edu,1992-12-13,Estudiante,Psicología,False
+U027,Luis Fernandez,39438553,luis.fernandez@estudiantes.univ.edu,2004-02-10,Docente,Ingeniería,2010-10-17,Facultad de Ciencias de la Salud
+U028,Jorge Rodriguez,72778665,jorge.rodriguez@profesores.univ.edu,2003-06-05,Docente,Ingeniería,2013-10-09,Facultad de Ingeniería
+U029,Laura Gomez,76677484,laura.gomez@profesores.univ.edu,1986-05-04,Docente,Ingeniería,2010-08-21,Facultad de Ciencias de la Salud
+U030,Paula Diaz,83712309,paula.diaz@univ.edu,1981-02-12,Docente,Ciencias de la Salud,2009-12-12,Facultad de Ciencias Exactas
+U031,Juan Fernandez,66513963,juan.fernandez@estudiantes.univ.edu,2005-01-31,Estudiante,Ingeniería de Sistemas,False
+U032,Paula Torres,30600652,paula.torres@univ.edu,1998-02-22,Estudiante,Arquitectura,True
+U033,Juan Fernandez,92919056,juan.fernandez@estudiantes.univ.edu,1996-12-26,Docente,Ciencias Sociales,2015-05-09,Facultad de Ciencias de la Salud
+U034,Luisa Garcia,90287915,luisa.garcia@univ.edu,1971-03-05,Docente,Ciencias Básicas,2015-08-17,Facultad de Ciencias Sociales
+U035,Laura Garcia,55443532,laura.garcia@profesores.univ.edu,1970-12-28,Estudiante,Ingeniería de Sistemas,True
+U036,Carlos Lopez,13992761,carlos.lopez@profesores.univ.edu,1974-12-05,Estudiante,Arquitectura,True
+U037,Ana Diaz,19817218,ana.diaz@univ.edu,1990-12-31,Docente,Ciencias Básicas,2005-04-14,Facultad de Ciencias de la Salud
+U038,Luis Perez,30613813,luis.perez@profesores.univ.edu,1991-06-11,Estudiante,Química,False
+U039,Maria Fernandez,34340824,maria.fernandez@univ.edu,1979-06-14,Estudiante,Psicología,True
+U040,Luis Fernandez,57270673,luis.fernandez@profesores.univ.edu,1984-04-30,Estudiante,Derecho,False
+U041,Jorge Diaz,61607747,jorge.diaz@univ.edu,1990-09-17,Estudiante,Arquitectura,True
+U042,Jorge Martinez,62533849,jorge.martinez@estudiantes.univ.edu,1976-02-19,Docente,Ciencias Sociales,2002-02-04,Facultad de Ciencias Sociales
+U043,Maria Rodriguez,17510991,maria.rodriguez@profesores.univ.edu,1994-10-05,Estudiante,Ingeniería de Sistemas,True
+U044,Luis Lopez,35603998,luis.lopez@profesores.univ.edu,1999-11-15,Estudiante,Biología,False
+U045,Maria Rodriguez,16921894,maria.rodriguez@profesores.univ.edu,1980-09-27,Docente,Ciencias Sociales,2012-08-30,Facultad de Ingeniería
+U046,Maria Fernandez,68959181,maria.fernandez@profesores.univ.edu,1997-07-28,Docente,Humanidades,2001-01-18,Facultad de Ciencias de la Salud
+U047,Paula Sanchez,51105807,paula.sanchez@univ.edu,1983-12-06,Estudiante,Ingeniería de Sistemas,False
+U048,Luis Diaz,91376265,luis.diaz@estudiantes.univ.edu,1983-06-21,Estudiante,Psicología,True
+U049,Carlos Perez,14882695,carlos.perez@univ.edu,1976-02-25,Docente,Ciencias Básicas,2003-02-22,Facultad de Ingeniería
+U050,Juan Martinez,88895175,juan.martinez@estudiantes.univ.edu,1977-04-17,Estudiante,Biología,False
+U051,Andres Gomez,84252301,andres.gomez@estudiantes.univ.edu,1981-11-01,Estudiante,Economía,False
+U052,Luis Diaz,11618847,luis.diaz@estudiantes.univ.edu,1993-05-07,Estudiante,Arquitectura,False
+U053,Juan Torres,90274776,juan.torres@estudiantes.univ.edu,1995-02-23,Estudiante,Derecho,True
+U054,Luis Diaz,35171284,luis.diaz@profesores.univ.edu,1985-08-14,Docente,Humanidades,2019-09-17,Facultad de Ciencias Exactas
+U055,Juan Sanchez,50876070,juan.sanchez@univ.edu,1970-08-04,Docente,Ingeniería,2000-03-12,Facultad de Ingeniería
+U056,Carlos Garcia,27967568,carlos.garcia@estudiantes.univ.edu,1990-10-01,Estudiante,Medicina,False
+U057,Paula Fernandez,79883750,paula.fernandez@profesores.univ.edu,2002-02-07,Estudiante,Biología,False
+U058,Luis Fernandez,50196277,luis.fernandez@univ.edu,1985-07-19,Estudiante,Medicina,True
+U059,Luisa Torres,11914824,luisa.torres@univ.edu,2001-12-03,Estudiante,Derecho,False
+U060,Juan Martinez,11765182,juan.martinez@estudiantes.univ.edu,1993-04-28,Estudiante,Psicología,True
+U061,Paula Torres,91509788,paula.torres@estudiantes.univ.edu,1996-02-05,Estudiante,Biología,True
+U062,Laura Torres,12352721,laura.torres@profesores.univ.edu,1992-10-27,Estudiante,Medicina,False
+U063,Juan Garcia,61757578,juan.garcia@estudiantes.univ.edu,1974-12-31,Estudiante,Biología,False
+U064,Laura Perez,82941247,laura.perez@estudiantes.univ.edu,1989-07-09,Estudiante,Psicología,True
+U065,Maria Sanchez,17618799,maria.sanchez@estudiantes.univ.edu,1998-11-13,Estudiante,Medicina,True
+U066,Juan Garcia,61275050,juan.garcia@estudiantes.univ.edu,1987-06-14,Estudiante,Ingeniería de Sistemas,True
+U067,Andres Fernandez,99093047,andres.fernandez@univ.edu,2003-03-25,Docente,Ciencias Básicas,2018-05-31,Facultad de Ciencias de la Salud
+U068,Juan Fernandez,48852167,juan.fernandez@univ.edu,1971-03-16,Docente,Ciencias Sociales,2007-07-20,Facultad de Ciencias de la Salud
+U069,Carlos Fernandez,74726793,carlos.fernandez@estudiantes.univ.edu,1976-09-17,Docente,Ingeniería,2001-04-08,Facultad de Ciencias de la Salud
+U070,Luisa Gomez,45204064,luisa.gomez@estudiantes.univ.edu,2002-03-21,Docente,Ciencias Básicas,2015-03-30,Facultad de Ciencias Exactas
+U071,Carlos Lopez,46254545,carlos.lopez@estudiantes.univ.edu,1988-04-02,Docente,Ciencias Sociales,2000-03-23,Facultad de Ciencias Exactas
+U072,Carlos Garcia,82470149,carlos.garcia@profesores.univ.edu,1998-09-19,Estudiante,Ingeniería de Sistemas,False
+U073,Carlos Torres,16293741,carlos.torres@univ.edu,1996-09-02,Docente,Ciencias Básicas,2003-10-15,Facultad de Humanidades
+U074,Luis Rodriguez,51017897,luis.rodriguez@profesores.univ.edu,1993-06-05,Estudiante,Matemáticas,False
+U075,Laura Gomez,42005949,laura.gomez@univ.edu,1987-06-17,Estudiante,Biología,False
+U076,Luisa Rodriguez,98772998,luisa.rodriguez@profesores.univ.edu,1983-04-24,Estudiante,Psicología,False
+U077,Andres Rodriguez,67794006,andres.rodriguez@estudiantes.univ.edu,1975-09-02,Estudiante,Medicina,False
+U078,Luis Fernandez,33343873,luis.fernandez@estudiantes.univ.edu,1981-04-25,Estudiante,Arquitectura,True
+U079,Jorge Gomez,14829607,jorge.gomez@profesores.univ.edu,1983-06-19,Estudiante,Filosofía,False
+U080,Andres Rodriguez,69028917,andres.rodriguez@estudiantes.univ.edu,1980-02-05,Docente,Humanidades,2011-09-30,Facultad de Ciencias de la Salud
+U081,Carlos Lopez,22986228,carlos.lopez@univ.edu,1982-03-20,Docente,Humanidades,2017-11-06,Facultad de Ciencias Exactas
+U082,Ana Garcia,57800634,ana.garcia@univ.edu,1999-07-31,Estudiante,Ingeniería de Sistemas,True
+U083,Paula Garcia,31279464,paula.garcia@univ.edu,1977-10-28,Estudiante,Filosofía,True
+U084,Juan Fernandez,17855416,juan.fernandez@univ.edu,1992-03-29,Docente,Ciencias de la Salud,2023-07-13,Facultad de Ciencias de la Salud
+U085,Maria Torres,26508124,maria.torres@univ.edu,1981-04-13,Estudiante,Ingeniería de Sistemas,True
+U086,Luisa Diaz,10435919,luisa.diaz@profesores.univ.edu,2003-05-26,Estudiante,Psicología,False
+U087,Carlos Perez,14437090,carlos.perez@univ.edu,1976-11-11,Docente,Ciencias Básicas,2016-06-21,Facultad de Ingeniería
+U088,Paula Rodriguez,73905664,paula.rodriguez@profesores.univ.edu,1977-07-27,Docente,Ingeniería,2004-01-22,Facultad de Ciencias de la Salud
+U089,Luisa Rodriguez,70650160,luisa.rodriguez@univ.edu,2003-06-23,Estudiante,Ingeniería de Sistemas,True
+U090,Ana Garcia,71055198,ana.garcia@univ.edu,1989-05-14,Estudiante,Química,False
+U091,Laura Fernandez,43793387,laura.fernandez@estudiantes.univ.edu,1982-03-26,Estudiante,Economía,False
+U092,Luisa Sanchez,42324675,luisa.sanchez@profesores.univ.edu,1978-09-06,Estudiante,Medicina,False
+U093,Paula Diaz,60343696,paula.diaz@univ.edu,1990-02-16,Docente,Ciencias Básicas,2010-09-26,Facultad de Ciencias de la Salud
+U094,Maria Sanchez,83062478,maria.sanchez@estudiantes.univ.edu,1994-03-29,Estudiante,Biología,False
+U095,Luis Garcia,54419600,luis.garcia@estudiantes.univ.edu,1993-03-10,Docente,Ciencias Básicas,2016-11-04,Facultad de Humanidades
+U096,Ana Garcia,97288358,ana.garcia@univ.edu,1991-12-18,Docente,Humanidades,2000-11-23,Facultad de Ingeniería
+U097,Luis Rodriguez,41461696,luis.rodriguez@profesores.univ.edu,1985-08-09,Estudiante,Matemáticas,True
+U098,Carlos Rodriguez,79626881,carlos.rodriguez@univ.edu,1977-10-22,Docente,Humanidades,2003-06-10,Facultad de Ingeniería
+U099,Ana Gomez,26749614,ana.gomez@univ.edu,1979-02-20,Estudiante,Economía,False
+U100,Carlos Garcia,23345449,carlos.garcia@profesores.univ.edu,1982-04-08,Docente,Ciencias Básicas,2022-04-08,Facultad de Ciencias Exactas
