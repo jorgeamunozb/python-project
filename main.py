@@ -8,8 +8,13 @@ sistema = Sistema(materias_capacity=20, usuarios_capacity=100, registros_capacit
 try:
     file1 = open("materias.txt", "r")
     lineas = file1.readlines() 
-    print(lineas) 
-except:
-    print("Error al abrir el archivo")
     
-file1.close()
+    # Imprimir cada línea con un salto de línea adicional
+    for linea in lineas:
+        print(linea.strip())  # .strip() para eliminar el salto de línea original
+
+except Exception as e:
+    print("Error al abrir el archivo:", e)
+
+finally:
+    file1.close()  # Asegúrate de cerrar el archivo
