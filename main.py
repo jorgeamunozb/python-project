@@ -11,15 +11,17 @@ try:
     lineas = file1.readlines() 
     
     # Imprimir cada línea con un salto de línea adicional
-    for i, linea in lineas:
-        print({i})
-        if ({i} != 0):
+    for i, linea in range(len(lineas)):
+        print(i)
+        if (i != 0):
             linea_materia = linea.strip();
+            """"
             id = linea_materia.split(",")[0]
             nombre = linea_materia.split(",")[1]
             creditos = linea_materia.split(",")[2]
             materia = Materia(id, nombre, creditos)
             print(materia)
+            """
         
         #print(linea.strip())  # .strip() para eliminar el salto de línea original
 
