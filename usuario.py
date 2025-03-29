@@ -3,7 +3,7 @@ from datetime import date
 #Se crea la clase usuario
 class Usuario:
 
-    def __init__(self, id:str, cc:str, nombre_completo:str, email:str, fecha_nacimiento:date):
+    def __init__(self, id:str, nombre_completo:str, cc:str, email:str, fecha_nacimiento:date):
         self.__id = id
         self.__cc = cc
         self.__nombre_completo = nombre_completo

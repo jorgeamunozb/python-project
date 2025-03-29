@@ -42,7 +42,7 @@ class Sistema:
     def buscar_usuario(self, id: str): # Aqui se busca el usuario por medio de su cedula
         for i in range(0, self.__usuarios_count):
             if (self.__usuarios[i].id == id):
-                print (f"El usuario buscado es: {self.__usuarios}")
+                return self.__usuarios[i]
             else:
                 print("Usuario no encontrado")
         
@@ -66,3 +66,8 @@ class Sistema:
                 print(f"El registro es: {self.__registros}")
             else:
                 print("Registro no encontrado")
+
+    def toReportByEstudiante(self, id_estudiante: str):
+        usuario: Usuario = self.buscar_usuario(id_estudiante)
+        registro_cedula = self.buscar_registro_id(usuario.id)
+        print("usuario=", usuario.nombre_completo)

@@ -82,11 +82,12 @@ try:
             id_estudiante = lineas_reg.split(",")[2]
             id_materia = lineas_reg.split(",")[3]
             periodo = lineas_reg.split(",")[4]
-            registro = 
-            print(lineas_reg)
+            #crear objeto registro matricula y enviarlo al metodo agregar registro
+            sistema.agregar_registro()
+            print("id registro:" + id_reg + "id docente:" + id)
 
 except Exception as e:
     print("Archivo no encontrado", e)
 
-def toReportByEstudiante():
-    pass
+
+sistema.toReportByEstudiante("U001")
