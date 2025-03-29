@@ -15,22 +15,23 @@ class Sistema:
         
     # Metodos agregar materia, usuario y registro    
     def agregar_materia(self, materia: Materia):
-        if (self.__materias_count < self.__materias.size):
+        if (self.__materias_count <= self.__materias.size):
             self.__materias[self.__materias_count] = materia
             self.__materias_count += 1
+            print(self.__materias)
         else:
             print("Suficientes materias")
             
         
     def agregar_usuario(self, usuario: Usuario):
-        if (self.__usuarios_count < self.__usuarios.size):
+        if (self.__usuarios_count <= self.__usuarios.size):
             self.__usuarios[self.__usuarios_count] = usuario
             self.__usuarios_count += 1
         else:
             print("Suficientes usuarios")
                 
     def agregar_registro(self, registro_matricula: RegistroMatricula):
-        if (self.__registros_count < self.__registros.size):
+        if (self.__registros_count <= self.__registros.size):
             self.__registros[self.__registros_count] = registro_matricula
             self.__registros_count += 1
         else:
