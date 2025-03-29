@@ -1,6 +1,7 @@
 # INTEGRANTES: Darlink Aguilar Graciano y Andres David Villa Marin 
 from registro_matricula import RegistroMatricula
 from sistema import Sistema
+from materia import Materia
 import numpy as np
 
 sistema = Sistema(materias_capacity=20, usuarios_capacity=100, registros_capacity=200)
@@ -10,8 +11,17 @@ try:
     lineas = file1.readlines() 
     
     # Imprimir cada línea con un salto de línea adicional
-    for linea in lineas:
-        print(linea.strip())  # .strip() para eliminar el salto de línea original
+    for i, linea in lineas:
+        print({i})
+        if ({i} != 0):
+            linea_materia = linea.strip();
+            id = linea_materia.split(",")[0]
+            nombre = linea_materia.split(",")[1]
+            creditos = linea_materia.split(",")[2]
+            materia = Materia(id, nombre, creditos)
+            print(materia)
+        
+        #print(linea.strip())  # .strip() para eliminar el salto de línea original
 
 except Exception as e:
     print("Error al abrir el archivo:", e)
