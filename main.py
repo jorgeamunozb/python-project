@@ -6,7 +6,7 @@ from usuario import Usuario
 import numpy as np
 
 sistema = Sistema(materias_capacity=20, usuarios_capacity=100, registros_capacity=200)
-""""
+
 try:
     file1 = open("materias.txt", "r")
     lineas = file1.readlines() 
@@ -31,8 +31,8 @@ except Exception as e:
 
 finally:
     file1.close()  # Asegúrate de cerrar el archivo
-"""
-"""
+
+
 try:
     file_usuario = open("usuarios.txt", "r")
     lineas2 = file_usuario.readlines()
@@ -56,7 +56,7 @@ except Exception as e:
 
 finally:
     file_usuario.close()
-"""        
+       
 
 """
 registro_matricula = RegistroMatricula(array_capacity = 10)
