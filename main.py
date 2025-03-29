@@ -68,3 +68,25 @@ try:
     for i in range(len(lineas_calificacionesAc)):
         pass
 """
+
+
+try:
+    file_registros_academicos = open("registros_academicos.txt" , "r")
+    lineas_registro = file_registros_academicos.readlines()
+
+    for i in range(len(lineas_registro)):
+        if (i != 0):
+            lineas_reg = lineas_registro[i].strip();
+            id_reg = lineas_reg.split(",")[0]
+            id_docente = lineas_reg.split(",")[1]
+            id_estudiante = lineas_reg.split(",")[2]
+            id_materia = lineas_reg.split(",")[3]
+            periodo = lineas_reg.split(",")[4]
+            registro = 
+            print(lineas_reg)
+
+except Exception as e:
+    print("Archivo no encontrado", e)
+
+def toReportByEstudiante():
+    pass
