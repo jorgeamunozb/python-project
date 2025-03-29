@@ -18,7 +18,7 @@ class Sistema:
         if (self.__materias_count <= self.__materias.size):
             self.__materias[self.__materias_count] = materia
             self.__materias_count += 1
-            print(self.__materias)
+            #print(self.__materias)
         else:
             print("Suficientes materias")
             

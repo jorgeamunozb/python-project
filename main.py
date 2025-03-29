@@ -21,9 +21,8 @@ try:
             creditos = linea_materia.split(",")[2]
             materia = Materia(id, nombre, creditos)
             sistema.agregar_materia(materia)
-            #print(materia)
-            
-        
+            print(materia.__str__())
+                  
         #print(linea.strip())  # .strip() para eliminar el salto de línea original
 
 except Exception as e:

@@ -35,4 +35,4 @@ class Materia:
         
     #Se crea el metodo toString
     def __str__(self):
-        return f"{self.__id}, {self.__nombre}, {self.__creditos}"
+        return f"Id: {self.__id}, Nombre: {self.__nombre}, Creditos: {self.__creditos}"
