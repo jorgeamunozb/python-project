@@ -32,6 +32,7 @@ except Exception as e:
 finally:
     file1.close()  # Asegúrate de cerrar el archivo
 """
+"""
 try:
     file_usuario = open("usuarios.txt", "r")
     lineas2 = file_usuario.readlines()
@@ -48,11 +49,22 @@ try:
             fecha_nacimiento = linea_usuario.split(",")[4]
             usuario = Usuario(id, cc, nombre_completo, email, fecha_nacimiento)
             sistema.agregar_usuario(usuario)
-            print(usuario)
+            print("id: " + id + "cc: "+ cc + "nombre completo:" + nombre_completo+ "email: "+ email + "fecha de nacimiento:"+ fecha_nacimiento)
             
 except Exception as e:
     print("Erros al abrir el archivo", e)
 
 finally:
     file_usuario.close()
-            
+"""        
+
+"""
+registro_matricula = RegistroMatricula(array_capacity = 10)
+
+try:
+    file_calificaionesAc = open("calificaciones_academicas.txt", "r")
+    lineas_calificacionesAc = file_calificaionesAc.readlines()
+    
+    for i in range(len(lineas_calificacionesAc)):
+        pass
+"""
