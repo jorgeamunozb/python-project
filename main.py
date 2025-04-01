@@ -74,7 +74,8 @@ try:
 
 except Exception as e:
     print("Archivo no encontrado", e)
-
+finally:
+    file_registros_academicos.close()
 
 try:
     file_calificaionesAc = open("calificaciones_academicas.txt", "r")
@@ -85,17 +86,17 @@ try:
             lineas_calificaciones = lineas_calificacionesAc[i].strip();
             
             id_reg = lineas_calificaciones.split(",")[0]
-            #reg = sistema.buscar_registro_id(id_reg)
-            
+            print("reg", id_reg)
+            reg = sistema.buscar_registro_id(id_reg)
+ 
             #Primero for con guiones y el segundo con los puntos
             for j in range(len(lineas_calificaciones)):
                 porcentaje = lineas_calificaciones.split("-")
                 for k in range(len(lineas_calificaciones)): # i-1
                     nota = lineas_calificaciones.split(":")
                     
-            
                     
-            print(lineas_calificaciones)
+            #print(lineas_calificaciones)
             
 except Exception as e:
     print("Error al abrir el archivo")

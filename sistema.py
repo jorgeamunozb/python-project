@@ -57,8 +57,6 @@ class Sistema:
         for i in range(0, self.__registros_count):
             if (self.__registros[i].id == id):
                 return self.__registros[i]
-            else:
-                print("Registro no encontrado")
        
     def buscar_registro_data (self, periodo: str, cc_estudiante, cc_docente, id_materia):
         for i in range(0, self.__registros_count):
