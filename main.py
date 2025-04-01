@@ -83,17 +83,17 @@ try:
     
     for i in range(len(lineas_calificacionesAc)):
         if (i != 0):
-            lineas_calificaciones = lineas_calificacionesAc[i].strip();
-            
-            id_reg = lineas_calificaciones.split(",")[0]
-            print("reg", id_reg)
-            reg = sistema.buscar_registro_id(id_reg)
- 
+            lineas_calificaciones = lineas_calificacionesAc[i].strip()
+            por_nota = lineas_calificaciones.split(",")[1]
+            #reg = sistema.buscar_registro_id(id_reg)
+            #print("reg", reg)
             #Primero for con guiones y el segundo con los puntos
-            for j in range(len(lineas_calificaciones)):
-                porcentaje = lineas_calificaciones.split("-")
-                for k in range(len(lineas_calificaciones)): # i-1
-                    nota = lineas_calificaciones.split(":")
+            listado_notas = por_nota.split("-")
+            for j in range(len(listado_notas)):
+                porc = listado_notas[j].split(":")[0]
+                nota = listado_notas[j].split(":")[1]
+                print("Porcentaje: " + porc)
+                print("Nota: "+ nota)
                     
                     
             #print(lineas_calificaciones)

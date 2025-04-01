@@ -66,8 +66,8 @@ class RegistroMatricula:
             
     #Se debe crear el metodo calcular nota final 
     def calcular_nota_final(self):
-        for i in range(1, len( self.__calificaciones)):
-            pass
+        for i in range(1, len(self.__calificaciones)):
+            
     
     #Creamos el metodo toString
     def __str__(self):
