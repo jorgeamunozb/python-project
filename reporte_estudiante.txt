@@ -1,0 +1,1 @@
+nombre_completo,cc,email,carrera,nombre_materia,periodo,nota_final,estado_final

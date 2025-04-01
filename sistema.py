@@ -49,21 +49,21 @@ class Sistema:
     def buscar_materia(self, id: str): # Aqui se busca la materia por su id
         for i in range(0, self.__materias_count):
             if (self.__materias[i].id == id):
-                print(f"La materia buscada es: {self.__materias}")
+                return self.__materias[i]
             else:
                 print("Materia no encontrada")
     
     def buscar_registro_id(self, id: str): # Aqui se busca el registro por su id
         for i in range(0, self.__registros_count):
             if (self.__registros[i].id == id):
-                print(f"El registro es: {self.__registros}")
+                return self.__registros[i]
             else:
                 print("Registro no encontrado")
        
     def buscar_registro_data (self, periodo: str, cc_estudiante, cc_docente, id_materia):
         for i in range(0, self.__registros_count):
             if (self.__registros_count[i].periodo == periodo) and (self.__registros_count[i].cc.estudiante == cc_estudiante) and (self.__registros_count[i].cc_docente == cc_docente) and (self.__registros_count[i].id.materia == id_materia):
-                print(f"El registro es: {self.__registros}")
+                return self.__registros[i]
             else:
                 print("Registro no encontrado")
 

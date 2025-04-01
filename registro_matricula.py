@@ -56,6 +56,7 @@ class RegistroMatricula:
     def estudiante(self, estudiante):
         self.__estudiante = estudiante
         
+    # Metodo agregar califiacon
     def agregar_calificacion(self, calificacion: Calificacion):
         if(self.__calificaciones_count < self.__calificaciones.size):
             self.__calificaciones[self.__calificaciones_count] = calificacion
@@ -64,7 +65,9 @@ class RegistroMatricula:
             print("el 100% de las calificaciones estan digitadas")
             
     #Se debe crear el metodo calcular nota final 
-    
+    def calcular_nota_final(self):
+        for i in range(1, len( self.__calificaciones)):
+            pass
     
     #Creamos el metodo toString
     def __str__(self):
