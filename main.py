@@ -7,6 +7,7 @@ from calificacion import Calificacion
 import numpy as np
 
 sistema = Sistema(materias_capacity = 20, usuarios_capacity = 100, registros_capacity = 200)
+global registro_matricula
 
 try:
     file1 = open("materias.txt", "r")
@@ -86,19 +87,21 @@ try:
         if (i != 0):
             lineas_calificaciones = lineas_calificacionesAc[i].strip()
             
-            por_nota = lineas_calificaciones.split(",")[1]
+            # Buscar el registro académico correspondiente
             #reg = sistema.buscar_registro_id(id_reg)
-            #print("reg", reg) 
+            #print("reg", registro_matricula) 
+            por_nota = lineas_calificaciones.split(",")[1]
+
             #Primero for con guiones y el segundo con los puntos
             listado_notas = por_nota.split("-")
             for j in range(len(listado_notas)):
                 porc = listado_notas[j].split(":")[0]
                 nota = listado_notas[j].split(":")[1]
-                calificacion = Calificacion(porc, nota)
+                calificacion = Calificacion(int(porc), float(nota))
                 registro_matricula.agregar_calificacion(calificacion) 
                 #print("Porcentaje: "+ porc + " nota: "+ nota) 
-                print("Prueba: "+ porc + "Nota: " + nota)               
-                
+                print("%: "+ porc + " - nota: " + nota)               
+            print("nota_final: ", registro_matricula.calcular_nota_final())
             #print(lineas_calificaciones)
            
 except Exception as e:

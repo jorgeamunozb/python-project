@@ -61,23 +61,17 @@ class RegistroMatricula:
         if(self.__calificaciones_count < self.__calificaciones.size):
             self.__calificaciones[self.__calificaciones_count] = calificacion
             self.__calificaciones_count += 1
-
     
-    #Se debe crear el metodo calcular nota final 
+    #Se debe crear el metodo calcular nota final            
     def calcular_nota_final(self):
-        for i in range(0, len(self.__calificaciones)):    
+        nota_final = 0
+        for i in range(0, len(self.__calificaciones)):
             acum_nota = float((self.__calificaciones[i].porcentaje/100)*self.__calificaciones[i].nota)
-            
-        
-            
-            
-            
-    
-            
+            nota_final += acum_nota
+        return nota_final
     
     #Creamos el metodo toString
     def __str__(self):
         return f"{self.__id}, {self.__materia}, {self.__periodo}, {self.__docente}, {self.__estudiante}"
-    
     
     
