@@ -1,5 +1,6 @@
 from materia import Materia
 from usuario import Usuario
+from estudiante import Estudiante
 from registro_matricula import RegistroMatricula
 import numpy as np
 
@@ -41,7 +42,7 @@ class Sistema:
     # Metodos buscar objetos  
     def buscar_usuario(self, id: str): # Aqui se busca el usuario por medio de su cedula
         for i in range(0, self.__usuarios_count):
-            if (self.__usuarios[i].id == id):
+            if (self.__usuarios[i].cc == id):
                 return self.__usuarios[i]
             else:
                 print("Usuario no encontrado")
@@ -66,6 +67,7 @@ class Sistema:
                 print("Registro no encontrado")
 
     def toReportByEstudiante(self, id_estudiante: str):
-        usuario: Usuario = self.buscar_usuario(id_estudiante)
-        registro_cedula = self.buscar_registro_id(usuario.id)
-        print("usuario=", usuario.nombre_completo)
+        estudiante: Estudiante = self.buscar_usuario(id_estudiante)
+        print(estudiante.nombre_completo)
+        print("estudiante:", estudiante.__str__())
+        #registro_cedula = self.buscar_registro_id(usuario.id)
