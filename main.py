@@ -3,6 +3,7 @@ from registro_matricula import RegistroMatricula
 from sistema import Sistema
 from materia import Materia
 from usuario import Usuario
+from calificacion import Calificacion
 import numpy as np
 
 sistema = Sistema(materias_capacity = 20, usuarios_capacity = 100, registros_capacity = 200)
@@ -84,20 +85,22 @@ try:
     for i in range(len(lineas_calificacionesAc)):
         if (i != 0):
             lineas_calificaciones = lineas_calificacionesAc[i].strip()
+            
             por_nota = lineas_calificaciones.split(",")[1]
             #reg = sistema.buscar_registro_id(id_reg)
-            #print("reg", reg)
+            #print("reg", reg) 
             #Primero for con guiones y el segundo con los puntos
             listado_notas = por_nota.split("-")
             for j in range(len(listado_notas)):
                 porc = listado_notas[j].split(":")[0]
                 nota = listado_notas[j].split(":")[1]
-                print("Porcentaje: " + porc)
-                print("Nota: "+ nota)
-                    
-                    
+                calificacion = Calificacion(porc, nota)
+                registro_matricula.agregar_calificacion(calificacion) 
+                #print("Porcentaje: "+ porc + " nota: "+ nota) 
+                print("Prueba: "+ porc + "Nota: " + nota)               
+                
             #print(lineas_calificaciones)
-            
+           
 except Exception as e:
     print("Error al abrir el archivo")
     

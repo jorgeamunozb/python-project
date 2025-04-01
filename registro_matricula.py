@@ -61,12 +61,18 @@ class RegistroMatricula:
         if(self.__calificaciones_count < self.__calificaciones.size):
             self.__calificaciones[self.__calificaciones_count] = calificacion
             self.__calificaciones_count += 1
-        else:
-            print("el 100% de las calificaciones estan digitadas")
-            
+
+    
     #Se debe crear el metodo calcular nota final 
     def calcular_nota_final(self):
-        for i in range(1, len(self.__calificaciones)):
+        for i in range(0, len(self.__calificaciones)):    
+            acum_nota = float((self.__calificaciones[i].porcentaje/100)*self.__calificaciones[i].nota)
+            
+        
+            
+            
+            
+    
             
     
     #Creamos el metodo toString
