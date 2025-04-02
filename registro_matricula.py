@@ -64,15 +64,24 @@ class RegistroMatricula:
 
     
     #Se debe crear el metodo calcular nota final 
+    """
     def calcular_nota_final(self):
         nota_final = 0
-        for i in range(self.__calificaciones.size):
+        for i in range(len(self.__calificaciones)):
             if (self.__calificaciones[i] is not None):
                 contador_nota = (25 * self.__calificaciones[i].porcentaje/ 100 * self.__calificaciones[i].nota/5)
                 nota_final += contador_nota
         nota_final = nota_final/5
         return "{:.2f}".format(nota_final)
-    
+    """
+    def calcular_nota_final(self):
+        nota_final = 0
+        for i in range(len(self.__calificaciones)):  
+            if self.__calificaciones[i] is not None:
+                contador_nota = (self.__calificaciones[i].porcentaje / 100) * (self.__calificaciones[i].nota / 5) * 25
+                nota_final += contador_nota
+        return "{:.2f}".format(nota_final)  
+
     
     #Creamos el metodo toString
     def __str__(self):

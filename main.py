@@ -4,6 +4,8 @@ from sistema import Sistema
 from materia import Materia
 from usuario import Usuario
 from calificacion import Calificacion
+from docente import Docente
+from estudiante import Estudiante
 import numpy as np
 
 sistema = Sistema(materias_capacity = 20, usuarios_capacity = 100, registros_capacity = 200)
@@ -40,21 +42,33 @@ try:
         if (i != 0):
             linea_usuario = lineas2[i].strip();
             
+            
             id = linea_usuario.split(",")[0]
             cc = linea_usuario.split(",")[1]
             nombre_completo = linea_usuario.split(",")[2]
             email = linea_usuario.split(",")[3]
             fecha_nacimiento = linea_usuario.split(",")[4]
+            
             usuario = Usuario(id, cc, nombre_completo, email, fecha_nacimiento)
+            persona = linea_usuario.split(",")[5] 
+            if (persona == "Docente"):
+                departamento = linea_usuario.split(",")[6]
+                fecha_contratacion = linea_usuario.split(",")[7]
+                facultad = linea_usuario.split(",")[8]
+                docente = Docente(id, cc, nombre_completo, email, fecha_nacimiento, departamento, fecha_contratacion, facultad)  
+            else:
+                carrera = linea_usuario.split(",")[6]
+                activo = linea_usuario.split(",")[7]
+                estudiante = Estudiante(id, cc, nombre_completo, email, fecha_nacimiento, carrera, activo)
             sistema.agregar_usuario(usuario)
             #print("id: " + id + "cc: "+ cc + "nombre completo:" + nombre_completo+ "email: "+ email + "fecha de nacimiento:"+ fecha_nacimiento)
+            
             
 except Exception as e:
     print("Erros al abrir el archivo", e)
 
 finally:
     file_usuario.close()
-       
 
 try:
     file_registros_academicos = open("registros_academicos.txt" , "r")
@@ -68,7 +82,10 @@ try:
             id_estudiante = lineas_reg.split(",")[2]
             id_materia = lineas_reg.split(",")[3]
             periodo = lineas_reg.split(",")[4]
-            registro_matricula = RegistroMatricula(id_reg, id_docente, id_estudiante, id_materia, periodo, 5)# Objeto implementado----
+            estudiante = sistema.buscar_usuario(id_estudiante)
+            docente = sistema.buscar_usuario(id_docente)
+            materia = sistema.buscar_materia(id_materia)
+            registro_matricula = RegistroMatricula(id = id_reg, materia = materia, docente = docente, estudiante = estudiante, periodo = periodo, array_capacity = 5) # Pregunta----------- 
             sistema.agregar_registro(registro_matricula)
             # print("Id registro: " + id_reg + " Id docente: " + id_docente + " Id estudiante: " + id_estudiante + " Id materia: "
             #      + id_materia + " Periodo: " + periodo)
@@ -80,31 +97,22 @@ finally:
 
 try:
     file_calificaionesAc = open("calificaciones_academicas.txt", "r")
-    lineas_calificacionesAc = file_calificaionesAc.readlines()
-    
-    for i in range(len(lineas_calificacionesAc)):
-        if (i != 0):
-            lineas_calificaciones = lineas_calificacionesAc[i].strip()
-            
-            por_nota = lineas_calificaciones.split(",")[1]
-            reg = sistema.buscar_registro_id(id = id_reg)
-            #print("reg", reg) 
-            #Primero for con guiones y el segundo con los puntos
-            listado_notas = por_nota.split("-")
-            for j in range(len(listado_notas)):
-                porc = listado_notas[j].split(":")[0]
-                nota = listado_notas[j].split(":")[1]
-                porcentaje = int(porc)
-                nota = float(nota)
-                calificacion = Calificacion(porcentaje = porc, nota = nota)
-                registro_matricula.agregar_calificacion(calificacion) 
-            #print(sistema.calcular_nota_final)
+    lineas_calificacionesAc = file_calificaionesAc.readlines()[1:]
+    for linea in lineas_calificacionesAc:
+        id_reg, notas_porcentajes = linea.strip().split(",")
+        partes_notas = notas_porcentajes.split("-")
+        registro = sistema.buscar_registro_id(id = id_reg)
+        for parte in partes_notas:
+            porcentaje, nota = parte.split(":")
+            porcentaje = int(porcentaje)
+            nota = float(nota)
+            calificacion = Calificacion(porcentaje = porcentaje, nota = nota)
+            registro.agregar_calificacion(calificacion = calificacion) 
+    print("Leido")
 except Exception as e:
-    print("Error al abrir el archivo")
-    
+    print("Error al leer el archivo calificaciones")
 finally:
     file_calificaionesAc.close()
-
 #sistema.toReportByEstudiante
 
-sistema.toReportByMateriaPeriodo
+sistema.toReportByMateriaPeriodo(id_materia, periodo)

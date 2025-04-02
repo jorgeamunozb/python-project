@@ -43,15 +43,11 @@ class Sistema:
         for i in range(0, self.__usuarios_count):
             if (self.__usuarios[i].id == id):
                 return self.__usuarios[i]
-            else:
-                print("Usuario no encontrado")
         
     def buscar_materia(self, id: str): # Aqui se busca la materia por su id
         for i in range(0, self.__materias_count):
             if (self.__materias[i].id == id):
                 return self.__materias[i]
-            else:
-                print("Materia no encontrada")
     
     def buscar_registro_id(self, id: str): # Aqui se busca el registro por su id
         for i in range(0, self.__registros_count):
@@ -84,7 +80,7 @@ class Sistema:
                     reporteEst.close()
                     
     def toReportByMateriaPeriodo(self, id_materia:str, periodo:str):
-        for i in range(self.__registros_count):
+        for i in range(0, self.__registros_count):
             if (self.__registros[i].materia.id == id_materia and self.__registros[i].periodo == periodo):
                 materia_nombre = self.__registros[i].materia.nombre
                 creditos = self.__registros[i].materia.creditos
@@ -100,7 +96,6 @@ class Sistema:
                 try: 
                     with open("reporte_periodo.txt", "a") as reportePer:
                         reportePer.write(f"{materia_nombre}, {creditos}, {nombre_estudiante}, {cc_estudiante}, {periodo}, {nota_final}, {estado_final}\n")
-                    
                 except Exception as e:
                     print("Error al escribir en el archivo reporte periodo", e)
                 finally:
