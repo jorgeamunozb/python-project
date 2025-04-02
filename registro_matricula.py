@@ -80,7 +80,7 @@ class RegistroMatricula:
             if self.__calificaciones[i] is not None:
                 contador_nota = (self.__calificaciones[i].porcentaje / 100) * (self.__calificaciones[i].nota / 5) * 25
                 nota_final += contador_nota
-        return "{:.2f}".format(nota_final)  
+        return "{:.2f}".format(nota_final)
 
     
     #Creamos el metodo toString

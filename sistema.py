@@ -87,7 +87,8 @@ class Sistema:
                 nombre_estudiante = self.__registros[i].estudiante.nombre_completo
                 cc_estudiante = self.__registros[i].estudiante.cc
                 periodo = self.__registros[i].periodo
-                nota_final = self.__registros[i].calcular_nota_final()
+                registro_matricula = RegistroMatricula(self.__registros[i].id, self.__registros[i].materia, self.__registros[i].docente, self.__registros[i].estudiante, periodo, array_capacity = 5)
+                nota_final = registro_matricula.calcular_nota_final()
                 if float(nota_final) >= 3.0:
                     estado_final = "Aprobó"
                 else:

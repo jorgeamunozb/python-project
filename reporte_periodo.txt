@@ -1,3 +1,6 @@
 Derecho Mercantil, 3, Paula Fernandez, 29620056, 2024-2, 0.00, Reprobó
 Derecho Mercantil, 3, Juan Garcia, 61757578, 2024-2, 0.00, Reprobó
 Derecho Mercantil, 3, Juan Martinez, 11765182, 2024-2, 0.00, Reprobó
+Derecho Mercantil, 3, Paula Fernandez, 29620056, 2024-2, 0.00, Reprobó
+Derecho Mercantil, 3, Juan Garcia, 61757578, 2024-2, 0.00, Reprobó
+Derecho Mercantil, 3, Juan Martinez, 11765182, 2024-2, 0.00, Reprobó
