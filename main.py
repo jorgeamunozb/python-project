@@ -87,27 +87,24 @@ try:
             lineas_calificaciones = lineas_calificacionesAc[i].strip()
             
             por_nota = lineas_calificaciones.split(",")[1]
-            #reg = sistema.buscar_registro_id(id_reg)
+            reg = sistema.buscar_registro_id(id = id_reg)
             #print("reg", reg) 
             #Primero for con guiones y el segundo con los puntos
             listado_notas = por_nota.split("-")
             for j in range(len(listado_notas)):
                 porc = listado_notas[j].split(":")[0]
                 nota = listado_notas[j].split(":")[1]
-                calificacion = Calificacion(porc, nota)
+                porcentaje = int(porc)
+                nota = float(nota)
+                calificacion = Calificacion(porcentaje = porc, nota = nota)
                 registro_matricula.agregar_calificacion(calificacion) 
-                #print("Porcentaje: "+ porc + " nota: "+ nota) 
-                print("Prueba: "+ porc + "Nota: " + nota)               
-                
-            #print(lineas_calificaciones)
-           
+            #print(sistema.calcular_nota_final)
 except Exception as e:
     print("Error al abrir el archivo")
     
 finally:
     file_calificaionesAc.close()
 
+#sistema.toReportByEstudiante
 
-#sistema.toReportByEstudiante("U001")
-
-
+sistema.toReportByMateriaPeriodo

@@ -65,7 +65,45 @@ class Sistema:
             else:
                 print("Registro no encontrado")
 
-    def toReportByEstudiante(self, id_estudiante: str):
-        usuario: Usuario = self.buscar_usuario(id_estudiante)
-        registro_cedula = self.buscar_registro_id(usuario.id)
-        print("usuario=", usuario.nombre_completo)
+    def toReportByEstudiante(self, id_estudiante: str, id_materia:str ,periodo:str):
+        for i in range(self.__usuarios):
+            if (self.__usuarios[i].id_estudiante == id_estudiante):
+                nombre = self.__usuarios[i].usuario.nombre_completo
+                cedula = self.__usuarios[i].usuario.cc
+                email = self.__usuarios[i].usuario.email
+                carrera = self.__usuarios[i].estudiante.carrera
+                #print(f{"Nombre: " + nombre + "Cédula: " + cedula + "Email: " + email + "Carrera: " + carrera}) 
+                
+                try:
+                    with open("reporte_estudiante.txt", "a") as reporteEst:
+                        reporteEst.write(f"{nombre}, {cedula}, {email}\n")
+                except Exception as e:
+                    print("Error al escribir en el archivo reporte estudiante " , e)
+                    
+                finally:
+                    reporteEst.close()
+                    
+    def toReportByMateriaPeriodo(self, id_materia:str, periodo:str):
+        for i in range(self.__registros_count):
+            if (self.__registros[i].materia.id == id_materia and self.__registros[i].periodo == periodo):
+                materia_nombre = self.__registros[i].materia.nombre
+                creditos = self.__registros[i].materia.creditos
+                nombre_estudiante = self.__registros[i].estudiante.nombre_completo
+                cc_estudiante = self.__registros[i].estudiante.cc
+                periodo = self.__registros[i].periodo
+                nota_final = self.__registros[i].calcular_nota_final()
+                if float(nota_final) >= 3.0:
+                    estado_final = "Aprobó"
+                else:
+                    estado_final = "Reprobó"
+                    
+                try: 
+                    with open("reporte_periodo.txt", "a") as reportePer:
+                        reportePer.write(f"{materia_nombre}, {creditos}, {nombre_estudiante}, {cc_estudiante}, {periodo}, {nota_final}, {estado_final}\n")
+                    
+                except Exception as e:
+                    print("Error al escribir en el archivo reporte periodo", e)
+                finally:
+                    reportePer.close()        
+        print("completado")               
+                    
