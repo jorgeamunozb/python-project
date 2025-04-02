@@ -24,9 +24,7 @@ try:
             creditos = linea_materia.split(",")[2]
             materia = Materia(id, nombre, creditos)
             sistema.agregar_materia(materia)
-            print("materia:", materia.__str__())
-                  
-        #print(linea.strip())  # .strip() para eliminar el salto de línea original
+            #print("materia:", materia.__str__())
 
 except Exception as e:
     print("Error al abrir el archivo:", e)
@@ -51,7 +49,7 @@ try:
             fecha_nacimiento = linea_usuario.split(",")[4]
             usuario = Usuario(id, nombre_completo, cc, email, fecha_nacimiento)
             sistema.agregar_usuario(usuario)
-            print(f"ID: {id}, Nombre Completo: {nombre_completo}, CC: {cc}, Email: {email}, Fecha de Nacimiento: {fecha_nacimiento}")
+            #print(f"ID: {id}, Nombre Completo: {nombre_completo}, CC: {cc}, Email: {email}, Fecha de Nacimiento: {fecha_nacimiento}")
             
 except Exception as e:
     print("Erros al abrir el archivo", e)
@@ -76,7 +74,7 @@ try:
             periodo = lineas_reg.split(",")[4]
             registro_matricula = RegistroMatricula(id_reg, id_docente, id_estudiante, id_materia, periodo, cantidad_registros)
             sistema.agregar_registro(registro_matricula)
-            print(f"Id registro: {id_reg}, Id docente: {id_docente}, Id estudiante: {id_estudiante}, Id materia: {id_materia}, Periodo: {periodo}")
+            #print(f"Id registro: {id_reg}, Id docente: {id_docente}, Id estudiante: {id_estudiante}, Id materia: {id_materia}, Periodo: {periodo}")
 
 except Exception as e:
     print("Archivo no encontrado", e)
@@ -95,14 +93,13 @@ try:
             reg_id = lineas_calificaciones.split(",")[0]
             print(f"\n{reg_id}:")
             porcentaje_notas = lineas_calificaciones.split(",")[1]
-            #Primero for con guiones y el segundo con los puntos
             listado_notas = porcentaje_notas.split("-")
             for j in range(len(listado_notas)):
                 porc = listado_notas[j].split(":")[0]
                 nota = listado_notas[j].split(":")[1]
                 calificacion = Calificacion(int(porc), float(nota))
                 registro_matricula.agregar_calificacion(calificacion) 
-                print(f"pos{j} > nota:{nota} - {porc}%")
+                #print(f"pos{j} > nota:{nota} - {porc}%")
            
 except Exception as e:
     print("Error al abrir el archivo calificaciones_academicas.txt")
@@ -122,7 +119,6 @@ try:
     for i in range(len(lineas_calificaciones_semestre)):
         if (i != 0):
             lineas_calificaciones = lineas_calificaciones_semestre[i].strip()
-            #periodo,cc_docente,id_materia,cc_alumno,calificaciones
             #2024-2,12345678,MAT001,13579135,10:2.7-10:1.8-10:1.86-10:4.11-10:2.73-10:2.24-10:1.58-10:0.75-10:2.38-10:1.44
             porcentaje_notas = lineas_calificaciones.split(",")[4]
             listado_notas = porcentaje_notas.split("-")
@@ -131,7 +127,7 @@ try:
                 nota = listado_notas[j].split(":")[1]
                 calificacion = Calificacion(int(porc), float(nota))
                 registro_matricula.agregar_calificacion(calificacion) 
-                print(f"pos{j} > nota:{nota} - {porc}%")
+                #print(f"pos{j} > nota:{nota} - {porc}%")
            
 except Exception as e:
     print(f"Error al abrir el archivo calificaciones_2024_2.txt: {e}")
@@ -144,5 +140,4 @@ finally:
 # nota final es mayor o igual a 3.0, y “Reprobó” si la nota final es menor a 3.0. Además, el archivo debe estar ordenado por el periodo (menor a mayor). El valor 
 # de la Nota Final tiene que estar formateado para que no registre más de 2 decimales.
 sistema.toReportByEstudiante("42313135")
-
 
