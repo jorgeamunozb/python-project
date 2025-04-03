@@ -1,0 +1,156 @@
+Luis Diaz, 91376265, luis.diaz@estudiantes.univ.edu, Calculo Integral, 2, 2.46, Reprobo
+Laura Torres, 39248723, laura.torres@profesores.univ.edu, Bioquimica, 3, 2.04, Reprobo
+Carlos Garcia, 27967568, carlos.garcia@estudiantes.univ.edu, Filosofia, 2, 3.9, Aprobo
+Luis Perez, 30613813, luis.perez@profesores.univ.edu, Introduccion a la Economia, 3, 2.27, Reprobo
+Carlos Garcia, 27967568, carlos.garcia@estudiantes.univ.edu, Algebra Abstracta, 1, 2.48, Reprobo
+Laura Torres, 12352721, laura.torres@profesores.univ.edu, Inteligencia Artificial, 1, 3.23, Aprobo
+Jorge Gomez, 14829607, jorge.gomez@profesores.univ.edu, Psicologia General, 1, 2.08, Reprobo
+Luisa Sanchez, 42324675, luisa.sanchez@profesores.univ.edu, Lenguaje de Programacion I, 3, 2.86, Reprobo
+Ana Sanchez, 93613711, ana.sanchez@univ.edu, Inteligencia Artificial, 1, 3.1, Aprobo
+Ana Gomez, 26749614, ana.gomez@univ.edu, Algebra Abstracta, 1, 1.86, Reprobo
+Luisa Sanchez, 42324675, luisa.sanchez@profesores.univ.edu, Psicologia General, 3, 1.01, Reprobo
+Paula Perez, 79482182, paula.perez@estudiantes.univ.edu, Geometria Analitica, 1, 4.12, Aprobo
+Maria Sanchez, 17618799, maria.sanchez@estudiantes.univ.edu, Quimica Organica, 1, 1.65, Reprobo
+Maria Fernandez, 34340824, maria.fernandez@univ.edu, Filosofia, 2, 2.95, Reprobo
+Paula Fernandez, 79883750, paula.fernandez@profesores.univ.edu, Ingenieria Economica, 1, 2.66, Reprobo
+Ana Sanchez, 93613711, ana.sanchez@univ.edu, Ingenieria Economica, 2, 2.32, Reprobo
+Paula Diaz, 13972929, paula.diaz@univ.edu, Mecanica de Fluidos, 3, 2.72, Reprobo
+Luis Lopez, 35603998, luis.lopez@profesores.univ.edu, Ingenieria Economica, 3, 3.41, Aprobo
+Paula Torres, 30600652, paula.torres@univ.edu, Psicologia General, 3, 2.46, Reprobo
+Luisa Rodriguez, 70650160, luisa.rodriguez@univ.edu, Calculo Integral, 2, 2.03, Reprobo
+Ana Sanchez, 93613711, ana.sanchez@univ.edu, Quimica Organica, 3, 3.13, Aprobo
+Maria Lopez, 79792218, maria.lopez@univ.edu, Geometria Analitica, 1, 2.49, Reprobo
+Luis Diaz, 62063341, luis.diaz@univ.edu, Derecho Constitucional, 3, 2.5, Reprobo
+Laura Garcia, 55443532, laura.garcia@profesores.univ.edu, Bioquimica, 1, 1.87, Reprobo
+Luis Diaz, 91376265, luis.diaz@estudiantes.univ.edu, Mecanica de Fluidos, 3, 2.67, Reprobo
+Luis Lopez, 35603998, luis.lopez@profesores.univ.edu, Geometria Analitica, 1, 2.87, Reprobo
+Ana Sanchez, 93613711, ana.sanchez@univ.edu, Geometria Analitica, 1, 2.8, Reprobo
+Maria Torres, 26508124, maria.torres@univ.edu, Filosofia, 2, 1.4, Reprobo
+Juan Martinez, 11765182, juan.martinez@estudiantes.univ.edu, Probabilidad y Estadistica, 2, 3.38, Aprobo
+Andres Gomez, 84252301, andres.gomez@estudiantes.univ.edu, Derecho Constitucional, 2, 3.2, Aprobo
+Maria Fernandez, 34340824, maria.fernandez@univ.edu, Lenguaje de Programacion I, 2, 1.98, Reprobo
+Juan Torres, 90274776, juan.torres@estudiantes.univ.edu, Tecnicas de Investigacion, 3, 1.98, Reprobo
+Juan Martinez, 11765182, juan.martinez@estudiantes.univ.edu, Historia de la Arquitectura, 1, 3.56, Aprobo
+Paula Fernandez, 79883750, paula.fernandez@profesores.univ.edu, Mecanica de Fluidos, 2, 2.5, Reprobo
+Ana Sanchez, 93613711, ana.sanchez@univ.edu, Derecho Mercantil, 2, 3.61, Aprobo
+Maria Sanchez, 83062478, maria.sanchez@estudiantes.univ.edu, Electronica I, 1, 2.57, Reprobo
+Juan Martinez, 88895175, juan.martinez@estudiantes.univ.edu, Analisis de Circuitos, 3, 2.93, Reprobo
+Juan Martinez, 11765182, juan.martinez@estudiantes.univ.edu, Calculo Integral, 1, 2.81, Reprobo
+Luis Fernandez, 57270673, luis.fernandez@profesores.univ.edu, Algebra Abstracta, 1, 2.08, Reprobo
+Paula Diaz, 13972929, paula.diaz@univ.edu, Introduccion a la Economia, 2, 2.21, Reprobo
+Luis Lopez, 54882827, luis.lopez@univ.edu, Derecho Constitucional, 1, 1.08, Reprobo
+Jorge Diaz, 61607747, jorge.diaz@univ.edu, Lenguaje de Programacion I, 3, 2.01, Reprobo
+Laura Fernandez, 43793387, laura.fernandez@estudiantes.univ.edu, Tecnicas de Investigacion, 2, 2.06, Reprobo
+Laura Garcia, 55443532, laura.garcia@profesores.univ.edu, Algebra Abstracta, 1, 3.48, Aprobo
+Laura Torres, 12352721, laura.torres@profesores.univ.edu, Tecnicas de Investigacion, 2, 3.32, Aprobo
+Laura Fernandez, 43793387, laura.fernandez@estudiantes.univ.edu, Calculo Integral, 2, 1.94, Reprobo
+Juan Martinez, 88895175, juan.martinez@estudiantes.univ.edu, Mecanica de Fluidos, 3, 2.9, Reprobo
+Laura Garcia, 55443532, laura.garcia@profesores.univ.edu, Introduccion a la Economia, 3, 3.76, Aprobo
+Luisa Rodriguez, 98772998, luisa.rodriguez@profesores.univ.edu, Quimica Organica, 1, 2.95, Reprobo
+Juan Fernandez, 66513963, juan.fernandez@estudiantes.univ.edu, Probabilidad y Estadistica, 3, 1.35, Reprobo
+Paula Torres, 91509788, paula.torres@estudiantes.univ.edu, Mecanica de Fluidos, 2, 3.24, Aprobo
+Juan Fernandez, 66513963, juan.fernandez@estudiantes.univ.edu, Algebra Abstracta, 2, 2.31, Reprobo
+Laura Gomez, 42005949, laura.gomez@univ.edu, Electronica I, 2, 3.24, Aprobo
+Luis Rodriguez, 51017897, luis.rodriguez@profesores.univ.edu, Bioquimica, 3, 3.17, Aprobo
+Juan Garcia, 61757578, juan.garcia@estudiantes.univ.edu, Ingenieria Economica, 3, 2.88, Reprobo
+Paula Torres, 91509788, paula.torres@estudiantes.univ.edu, Analisis de Circuitos, 1, 2.69, Reprobo
+Laura Fernandez, 43793387, laura.fernandez@estudiantes.univ.edu, Ingenieria Economica, 2, 2.38, Reprobo
+Juan Fernandez, 66513963, juan.fernandez@estudiantes.univ.edu, Ingenieria Economica, 1, 2.57, Reprobo
+Maria Sanchez, 17618799, maria.sanchez@estudiantes.univ.edu, Lenguaje de Programacion I, 1, 1.83, Reprobo
+Paula Torres, 30600652, paula.torres@univ.edu, Derecho Mercantil, 1, 3.07, Aprobo
+Paula Fernandez, 29620056, paula.fernandez@estudiantes.univ.edu, Lenguaje de Programacion I, 1, 3.09, Aprobo
+Juan Martinez, 11765182, juan.martinez@estudiantes.univ.edu, Analisis de Circuitos, 2, 3.22, Aprobo
+Juan Martinez, 11765182, juan.martinez@estudiantes.univ.edu, Electronica I, 3, 2.89, Reprobo
+Luis Diaz, 91376265, luis.diaz@estudiantes.univ.edu, Analisis de Circuitos, 2, 2.65, Reprobo
+Paula Torres, 91509788, paula.torres@estudiantes.univ.edu, Calculo Integral, 1, 2.92, Reprobo
+Maria Fernandez, 34340824, maria.fernandez@univ.edu, Psicologia General, 1, 1.87, Reprobo
+Laura Garcia, 55443532, laura.garcia@profesores.univ.edu, Historia de la Arquitectura, 1, 3.28, Aprobo
+Laura Garcia, 55443532, laura.garcia@profesores.univ.edu, Derecho Constitucional, 3, 3.63, Aprobo
+Luis Rodriguez, 41461696, luis.rodriguez@profesores.univ.edu, Mecanica de Fluidos, 3, 2.56, Reprobo
+Paula Rodriguez, 80188160, paula.rodriguez@estudiantes.univ.edu, Derecho Constitucional, 2, 2.71, Reprobo
+Jorge Diaz, 61607747, jorge.diaz@univ.edu, Calculo Diferencial, 3, 2.48, Reprobo
+Ana Garcia, 57800634, ana.garcia@univ.edu, Introduccion a la Economia, 2, 2.03, Reprobo
+Luis Lopez, 54882827, luis.lopez@univ.edu, Mecanica de Fluidos, 1, 2.22, Reprobo
+Juan Martinez, 88895175, juan.martinez@estudiantes.univ.edu, Bioquimica, 3, 2.06, Reprobo
+Paula Torres, 91509788, paula.torres@estudiantes.univ.edu, Ingenieria Economica, 2, 2.97, Reprobo
+Juan Garcia, 61757578, juan.garcia@estudiantes.univ.edu, Calculo Diferencial, 2, 3.33, Aprobo
+Luis Lopez, 54882827, luis.lopez@univ.edu, Psicologia General, 1, 2.62, Reprobo
+Laura Perez, 82941247, laura.perez@estudiantes.univ.edu, Inteligencia Artificial, 3, 1.58, Reprobo
+Jorge Gomez, 14829607, jorge.gomez@profesores.univ.edu, Algebra Abstracta, 2, 2.56, Reprobo
+Paula Fernandez, 29620056, paula.fernandez@estudiantes.univ.edu, Electronica I, 2, 2.47, Reprobo
+Laura Diaz, 94453210, laura.diaz@estudiantes.univ.edu, Introduccion a la Economia, 1, 1.71, Reprobo
+Carlos Garcia, 82470149, carlos.garcia@profesores.univ.edu, Quimica Organica, 2, 2.41, Reprobo
+Maria Rodriguez, 17510991, maria.rodriguez@profesores.univ.edu, Derecho Constitucional, 2, 2.39, Reprobo
+Juan Garcia, 61275050, juan.garcia@estudiantes.univ.edu, Psicologia General, 2, 3.46, Aprobo
+Paula Fernandez, 79883750, paula.fernandez@profesores.univ.edu, Analisis de Circuitos, 1, 2.57, Reprobo
+Jorge Lopez, 26584671, jorge.lopez@univ.edu, Derecho Mercantil, 3, 2.97, Reprobo
+Maria Sanchez, 83062478, maria.sanchez@estudiantes.univ.edu, Derecho Mercantil, 1, 2.24, Reprobo
+Laura Gomez, 42005949, laura.gomez@univ.edu, Calculo Integral, 1, 2.63, Reprobo
+Luisa Rodriguez, 70650160, luisa.rodriguez@univ.edu, Historia de la Arquitectura, 2, 3.42, Aprobo
+Laura Diaz, 94453210, laura.diaz@estudiantes.univ.edu, Bioquimica, 2, 3.11, Aprobo
+Luis Rodriguez, 51017897, luis.rodriguez@profesores.univ.edu, Calculo Integral, 3, 2.15, Reprobo
+Maria Torres, 26508124, maria.torres@univ.edu, Lenguaje de Programacion I, 2, 3.36, Aprobo
+Jorge Diaz, 61607747, jorge.diaz@univ.edu, Ingenieria Economica, 1, 3.52, Aprobo
+Luis Diaz, 62063341, luis.diaz@univ.edu, Inteligencia Artificial, 1, 2.39, Reprobo
+Paula Diaz, 13972929, paula.diaz@univ.edu, Psicologia General, 1, 1.16, Reprobo
+Luisa Torres, 11914824, luisa.torres@univ.edu, Derecho Constitucional, 1, 3.01, Aprobo
+Luis Diaz, 62063341, luis.diaz@univ.edu, Calculo Diferencial, 3, 3.29, Aprobo
+Luis Rodriguez, 41461696, luis.rodriguez@profesores.univ.edu, Derecho Constitucional, 2, 1.49, Reprobo
+Luis Diaz, 62063341, luis.diaz@univ.edu, Introduccion a la Economia, 2, 3.15, Aprobo
+Luisa Sanchez, 42324675, luisa.sanchez@profesores.univ.edu, Geometria Analitica, 3, 2.83, Reprobo
+Luisa Diaz, 10435919, luisa.diaz@profesores.univ.edu, Derecho Mercantil, 1, 1.15, Reprobo
+Luis Diaz, 91376265, luis.diaz@estudiantes.univ.edu, Derecho Mercantil, 1, 3.49, Aprobo
+Maria Fernandez, 34340824, maria.fernandez@univ.edu, Introduccion a la Economia, 3, 1.65, Reprobo
+Paula Garcia, 68022115, paula.garcia@univ.edu, Mecanica de Fluidos, 1, 1.72, Reprobo
+Carlos Garcia, 27967568, carlos.garcia@estudiantes.univ.edu, Calculo Integral, 3, 1.92, Reprobo
+Andres Rodriguez, 67794006, andres.rodriguez@estudiantes.univ.edu, Introduccion a la Economia, 3, 1.92, Reprobo
+Paula Diaz, 13972929, paula.diaz@univ.edu, Filosofia, 1, 1.85, Reprobo
+Luisa Sanchez, 42324675, luisa.sanchez@profesores.univ.edu, Calculo Diferencial, 3, 2.3, Reprobo
+Luis Lopez, 35603998, luis.lopez@profesores.univ.edu, Mecanica de Fluidos, 2, 1.96, Reprobo
+Jorge Lopez, 26584671, jorge.lopez@univ.edu, Historia de la Arquitectura, 3, 2.26, Reprobo
+Luis Fernandez, 57270673, luis.fernandez@profesores.univ.edu, Geometria Analitica, 2, 2.36, Reprobo
+Luis Rodriguez, 51017897, luis.rodriguez@profesores.univ.edu, Algebra Abstracta, 2, 3.3, Aprobo
+Juan Martinez, 88895175, juan.martinez@estudiantes.univ.edu, Algebra Abstracta, 2, 2.53, Reprobo
+Carlos Garcia, 27967568, carlos.garcia@estudiantes.univ.edu, Quimica Organica, 2, 3.25, Aprobo
+Jorge Gomez, 74928873, jorge.gomez@univ.edu, Calculo Diferencial, 2, 2.75, Reprobo
+Paula Fernandez, 79883750, paula.fernandez@profesores.univ.edu, Inteligencia Artificial, 3, 2.23, Reprobo
+Paula Torres, 30600652, paula.torres@univ.edu, Ingenieria Economica, 2, 3.88, Aprobo
+Ana Garcia, 57800634, ana.garcia@univ.edu, Analisis de Circuitos, 1, 2.13, Reprobo
+Paula Sanchez, 51105807, paula.sanchez@univ.edu, Electronica I, 3, 1.66, Reprobo
+Luis Fernandez, 50196277, luis.fernandez@univ.edu, Tecnicas de Investigacion, 3, 3.38, Aprobo
+Paula Fernandez, 79883750, paula.fernandez@profesores.univ.edu, Algebra Abstracta, 3, 1.79, Reprobo
+Laura Fernandez, 43793387, laura.fernandez@estudiantes.univ.edu, Derecho Mercantil, 2, 3.93, Aprobo
+Maria Rodriguez, 17510991, maria.rodriguez@profesores.univ.edu, Introduccion a la Economia, 2, 3.32, Aprobo
+Luis Diaz, 62063341, luis.diaz@univ.edu, Historia de la Arquitectura, 2, 1.78, Reprobo
+Juan Torres, 90274776, juan.torres@estudiantes.univ.edu, Analisis de Circuitos, 3, 2.58, Reprobo
+Luis Diaz, 62063341, luis.diaz@univ.edu, Lenguaje de Programacion I, 3, 2.06, Reprobo
+Juan Martinez, 88895175, juan.martinez@estudiantes.univ.edu, Ingenieria Economica, 3, 2.46, Reprobo
+Juan Fernandez, 66513963, juan.fernandez@estudiantes.univ.edu, Psicologia General, 2, 2.98, Reprobo
+Andres Gomez, 84252301, andres.gomez@estudiantes.univ.edu, Ingenieria Economica, 3, 2.5, Reprobo
+Carlos Lopez, 13992761, carlos.lopez@profesores.univ.edu, Quimica Organica, 3, 1.33, Reprobo
+Luisa Rodriguez, 70650160, luisa.rodriguez@univ.edu, Ingenieria Economica, 2, 1.73, Reprobo
+Luisa Rodriguez, 70650160, luisa.rodriguez@univ.edu, Quimica Organica, 2, 1.62, Reprobo
+Laura Gomez, 42005949, laura.gomez@univ.edu, Probabilidad y Estadistica, 2, 2.47, Reprobo
+Maria Sanchez, 17618799, maria.sanchez@estudiantes.univ.edu, Psicologia General, 2, 1.38, Reprobo
+Luis Perez, 30613813, luis.perez@profesores.univ.edu, Algebra Abstracta, 2, 3.13, Aprobo
+Laura Perez, 82941247, laura.perez@estudiantes.univ.edu, Historia de la Arquitectura, 1, 2.3, Reprobo
+Luis Fernandez, 33343873, luis.fernandez@estudiantes.univ.edu, Ingenieria Economica, 2, 4.2, Aprobo
+Luis Diaz, 11618847, luis.diaz@estudiantes.univ.edu, Psicologia General, 1, 1.61, Reprobo
+Juan Torres, 90274776, juan.torres@estudiantes.univ.edu, Lenguaje de Programacion I, 1, 3.14, Aprobo
+Andres Gomez, 84252301, andres.gomez@estudiantes.univ.edu, Inteligencia Artificial, 3, 2.47, Reprobo
+Carlos Lopez, 13992761, carlos.lopez@profesores.univ.edu, Filosofia, 1, 2.86, Reprobo
+Ana Sanchez, 93613711, ana.sanchez@univ.edu, Introduccion a la Economia, 1, 1.93, Reprobo
+Laura Perez, 82941247, laura.perez@estudiantes.univ.edu, Derecho Mercantil, 3, 3.25, Aprobo
+Paula Torres, 30600652, paula.torres@univ.edu, Introduccion a la Economia, 2, 3.03, Aprobo
+Juan Martinez, 11765182, juan.martinez@estudiantes.univ.edu, Introduccion a la Economia, 2, 2.42, Reprobo
+Juan Torres, 90274776, juan.torres@estudiantes.univ.edu, Inteligencia Artificial, 1, 2.49, Reprobo
+Luis Rodriguez, 41461696, luis.rodriguez@profesores.univ.edu, Lenguaje de Programacion I, 2, 2.75, Reprobo
+Andres Rodriguez, 67794006, andres.rodriguez@estudiantes.univ.edu, Inteligencia Artificial, 2, 2.38, Reprobo
+Maria Fernandez, 34340824, maria.fernandez@univ.edu, Calculo Diferencial, 2, 2.33, Reprobo
+Andres Rodriguez, 67794006, andres.rodriguez@estudiantes.univ.edu, Psicologia General, 3, 2.86, Reprobo
+Carlos Garcia, 82470149, carlos.garcia@profesores.univ.edu, Analisis de Circuitos, 3, 3.14, Aprobo
+Laura Torres, 12352721, laura.torres@profesores.univ.edu, Calculo Diferencial, 1, 2.47, Reprobo
+Maria Lopez, 79792218, maria.lopez@univ.edu, Lenguaje de Programacion I, 1, 2.89, Reprobo
+Laura Fernandez, 43793387, laura.fernandez@estudiantes.univ.edu, Probabilidad y Estadistica, 3, 1.85, Reprobo
+Luisa Rodriguez, 98772998, luisa.rodriguez@profesores.univ.edu, Psicologia General, 3, 2.84, Reprobo
+Luisa Rodriguez, 98772998, luisa.rodriguez@profesores.univ.edu, Probabilidad y Estadistica, 3, 3.37, Aprobo

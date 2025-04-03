@@ -20,7 +20,6 @@ class Sistema:
         if (self.__materias_count <= self.__materias.size):
             self.__materias[self.__materias_count] = materia
             self.__materias_count += 1
-            #print(self.__materias)
         else:
             print("Suficientes materias")
             
@@ -41,17 +40,17 @@ class Sistema:
             
                  
     # Metodos buscar objetos  
-    def buscar_usuario(self, id: str): # Aqui se busca el usuario por medio de su cedula
+    def buscar_usuario(self, id: str): 
         for i in range(0, self.__usuarios_count):
             if (self.__usuarios[i].id == id):
                 return self.__usuarios[i]
         
-    def buscar_materia(self, id: str): # Aqui se busca la materia por su id
+    def buscar_materia(self, id: str): 
         for i in range(0, self.__materias_count):
             if (self.__materias[i].id == id):
                 return self.__materias[i]
     
-    def buscar_registro_id(self, id: str): # Aqui se busca el registro por su id
+    def buscar_registro_id(self, id: str): 
         for i in range(0, self.__registros_count):
             if (self.__registros[i].id == id):
                 return self.__registros[i]
@@ -63,23 +62,35 @@ class Sistema:
             else:
                 print("Registro no encontrado")
 
-    def toReportByEstudiante(self, id_estudiante: str,estudiante: Estudiante, materia: Materia, periodo: str, calificaciones: Calificacion, registro: RegistroMatricula):
-        for i in range(self.__usuarios):
-            if (self.__usuarios[i].id_estudiante == id_estudiante):
-                nombre = self.__usuarios[i].usuario.nombre_completo
-                cedula = self.__usuarios[i].usuario.cc
-                email = self.__usuarios[i].usuario.email
-                carrera = self.__usuarios[i].estudiante.carrera
-                print("Nombre: " + nombre + " Cédula: " + cedula + " Email: " + email + " Carrera: " + carrera) 
-                
-                try:
-                    with open("reporte_estudiante.txt", "a") as reporteEst:
-                        reporteEst.write(f"{nombre}, {cedula}, {email}\n")
-                except Exception as e:
-                    print("Error al escribir en el archivo reporte estudiante " , e)
-                    
-                finally:
-                    reporteEst.close()
+    def toReportByEstudiante(self, registro: RegistroMatricula): # Aqui se genera el reporte por estudiante
+        nombre = registro.estudiante.nombre_completo
+        cedula = registro.estudiante.cc
+        email = registro.estudiante.email
+        materia_nombre = registro.materia.nombre
+        periodo = registro.periodo
+        nota_final = registro.calcular_nota_final()
+        if float(nota_final) >= 3.0:
+            estado_final = "Aprobo"
+        else:
+            estado_final = "Reprobo"
+        if periodo == "2023-1":
+            periodo = periodo
+        elif periodo == "2023-2":
+            periodo = periodo
+        elif periodo == "2024-1":
+            periodo = periodo
+        elif periodo == "2024-2":
+            periodo = periodo
+        else:
+            print("Periodo no valido")
+
+        try:
+            with open("reporte_estudiante.txt", "a") as reporteEst:
+                reporteEst.write(f"{nombre}, {cedula}, {email}, {materia_nombre}, {periodo}, {nota_final}, {estado_final}\n")
+        except Exception as e:
+            print("Error al escribir en el archivo reporte estudiante", e)
+        finally:
+            reporteEst.close()
                    
     def toReportByMateriaPeriodo(self, registro: RegistroMatricula):       
         materia_nombre = registro.materia.nombre

@@ -1,4 +1,4 @@
-# INTEGRANTES: Darlink Aguilar Graciano y Andres David Villa Marin 
+# INTEGRANTES: Darlink Aguilar Graciano y Andres David Villa Marin ---------
 from registro_matricula import RegistroMatricula
 from sistema import Sistema
 from materia import Materia
@@ -16,7 +16,7 @@ try:
     
     for i in range(len(lineas)):
         if (i != 0):
-            linea_materia = lineas[i].strip(); # Salto de linea
+            linea_materia = lineas[i].strip(); 
         
             id = linea_materia.split(",")[0]
             nombre = linea_materia.split(",")[1]
@@ -25,13 +25,11 @@ try:
             sistema.agregar_materia(materia)
             #print(materia.__str__())
                   
-        #print(linea.strip())  # .strip() para eliminar el salto de línea original
-
 except Exception as e:
     print("Error al abrir el archivo:", e)
 
 finally:
-    file1.close()  # Asegúrate de cerrar el archivo
+    file1.close()  
 
 
 try:
@@ -41,8 +39,7 @@ try:
     for i in range(len(lineas2)):
         if (i != 0):
             linea_usuario = lineas2[i].strip();
-            
-            
+        
             id = linea_usuario.split(",")[0]
             cc = linea_usuario.split(",")[1]
             nombre_completo = linea_usuario.split(",")[2]
@@ -69,6 +66,7 @@ except Exception as e:
 
 finally:
     file_usuario.close()
+    
 
 try:
     file_registros_academicos = open("registros_academicos.txt" , "r")
@@ -94,6 +92,7 @@ except Exception as e:
     print("Archivo no encontrado", e)
 finally:
     file_registros_academicos.close()
+    
 
 try:
     file_calificaionesAc = open("calificaciones_academicas.txt", "r")
@@ -109,12 +108,12 @@ try:
             calificacion = Calificacion(porcentaje = porcentaje, nota = nota)
             registro.agregar_calificacion(calificacion = calificacion) 
 
-        #sistema.toReportByMateriaPeriodo(registro)
+        sistema.toReportByEstudiante(registro)
+        sistema.toReportByMateriaPeriodo(registro)
         
-    #print("Leido")
 except Exception as e:
     print("Error al leer el archivo calificaciones")
 finally:
     file_calificaionesAc.close()
 
-sistema.toReportByEstudiante
+
