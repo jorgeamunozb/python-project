@@ -1,5 +1,7 @@
 from materia import Materia
 from usuario import Usuario
+from estudiante import Estudiante
+from calificacion import Calificacion
 from registro_matricula import RegistroMatricula
 import numpy as np
 
@@ -61,14 +63,14 @@ class Sistema:
             else:
                 print("Registro no encontrado")
 
-    def toReportByEstudiante(self, id_estudiante: str, id_materia:str ,periodo:str):
+    def toReportByEstudiante(self, id_estudiante: str,estudiante: Estudiante, materia: Materia, periodo: str, calificaciones: Calificacion, registro: RegistroMatricula):
         for i in range(self.__usuarios):
             if (self.__usuarios[i].id_estudiante == id_estudiante):
                 nombre = self.__usuarios[i].usuario.nombre_completo
                 cedula = self.__usuarios[i].usuario.cc
                 email = self.__usuarios[i].usuario.email
                 carrera = self.__usuarios[i].estudiante.carrera
-                #print(f{"Nombre: " + nombre + "Cédula: " + cedula + "Email: " + email + "Carrera: " + carrera}) 
+                print("Nombre: " + nombre + " Cédula: " + cedula + " Email: " + email + " Carrera: " + carrera) 
                 
                 try:
                     with open("reporte_estudiante.txt", "a") as reporteEst:
@@ -78,7 +80,7 @@ class Sistema:
                     
                 finally:
                     reporteEst.close()
-                    
+                   
     def toReportByMateriaPeriodo(self, registro: RegistroMatricula):       
         materia_nombre = registro.materia.nombre
         creditos = registro.materia.creditos
@@ -88,15 +90,14 @@ class Sistema:
         nota_final = registro.calcular_nota_final()
 
         if float(nota_final) >= 3.0:
-            estado_final = "Aprobó"
+            estado_final = "Aprobo"
         else:
-            estado_final = "Reprobó"
+            estado_final = "Reprobo"
             
         try: 
             with open("reporte_periodo.txt", "a") as reportePer:
                 reportePer.write(f"{materia_nombre}, {creditos}, {nombre_estudiante}, {cc_estudiante}, {periodo}, {nota_final}, {estado_final}\n")
         except Exception as e:
             print("Error al escribir en el archivo reporte periodo", e)
-    
-        print("completado")               
+                   
                     

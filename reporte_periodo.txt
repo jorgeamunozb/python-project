@@ -1,0 +1,157 @@
+
+Calculo Integral, 5, Luis Diaz, 91376265, 2023-2, 2.46, Reprobo
+Bioquimica, 5, Laura Torres, 39248723, 2024-1, 2.04, Reprobo
+Filosofia, 2, Carlos Garcia, 27967568, 2023-2, 3.9, Aprobo
+Introduccion a la Economia, 3, Luis Perez, 30613813, 2024-1, 2.27, Reprobo
+Algebra Abstracta, 5, Carlos Garcia, 27967568, 2023-1, 2.48, Reprobo
+Inteligencia Artificial, 5, Laura Torres, 12352721, 2023-1, 3.23, Aprobo
+Psicologia General, 3, Jorge Gomez, 14829607, 2023-1, 2.08, Reprobo
+Lenguaje de Programacion I, 4, Luisa Sanchez, 42324675, 2024-1, 2.86, Reprobo
+Inteligencia Artificial, 5, Ana Sanchez, 93613711, 2023-1, 3.1, Aprobo
+Algebra Abstracta, 5, Ana Gomez, 26749614, 2023-1, 1.86, Reprobo
+Psicologia General, 3, Luisa Sanchez, 42324675, 2024-1, 1.01, Reprobo
+Geometria Analitica, 4, Paula Perez, 79482182, 2023-1, 4.12, Aprobo
+Quimica Organica, 4, Maria Sanchez, 17618799, 2023-1, 1.65, Reprobo
+Filosofia, 2, Maria Fernandez, 34340824, 2023-2, 2.95, Reprobo
+Ingenieria Economica, 4, Paula Fernandez, 79883750, 2023-1, 2.66, Reprobo
+Ingenieria Economica, 4, Ana Sanchez, 93613711, 2023-2, 2.32, Reprobo
+Mecanica de Fluidos, 5, Paula Diaz, 13972929, 2024-1, 2.72, Reprobo
+Ingenieria Economica, 4, Luis Lopez, 35603998, 2024-1, 3.41, Aprobo
+Psicologia General, 3, Paula Torres, 30600652, 2024-1, 2.46, Reprobo
+Calculo Integral, 5, Luisa Rodriguez, 70650160, 2023-2, 2.03, Reprobo
+Quimica Organica, 4, Ana Sanchez, 93613711, 2024-1, 3.13, Aprobo
+Geometria Analitica, 4, Maria Lopez, 79792218, 2023-1, 2.49, Reprobo
+Derecho Constitucional, 3, Luis Diaz, 62063341, 2024-1, 2.5, Reprobo
+Bioquimica, 5, Laura Garcia, 55443532, 2023-1, 1.87, Reprobo
+Mecanica de Fluidos, 5, Luis Diaz, 91376265, 2024-1, 2.67, Reprobo
+Geometria Analitica, 4, Luis Lopez, 35603998, 2023-1, 2.87, Reprobo
+Geometria Analitica, 4, Ana Sanchez, 93613711, 2023-1, 2.8, Reprobo
+Filosofia, 2, Maria Torres, 26508124, 2023-2, 1.4, Reprobo
+Probabilidad y Estadistica, 4, Juan Martinez, 11765182, 2023-2, 3.38, Aprobo
+Derecho Constitucional, 3, Andres Gomez, 84252301, 2023-2, 3.2, Aprobo
+Lenguaje de Programacion I, 4, Maria Fernandez, 34340824, 2023-2, 1.98, Reprobo
+Tecnicas de Investigacion, 3, Juan Torres, 90274776, 2024-1, 1.98, Reprobo
+Historia de la Arquitectura, 4, Juan Martinez, 11765182, 2023-1, 3.56, Aprobo
+Mecanica de Fluidos, 5, Paula Fernandez, 79883750, 2023-2, 2.5, Reprobo
+Derecho Mercantil, 3, Ana Sanchez, 93613711, 2023-2, 3.61, Aprobo
+Electronica I, 5, Maria Sanchez, 83062478, 2023-1, 2.57, Reprobo
+Analisis de Circuitos, 5, Juan Martinez, 88895175, 2024-1, 2.93, Reprobo
+Calculo Integral, 5, Juan Martinez, 11765182, 2023-1, 2.81, Reprobo
+Algebra Abstracta, 5, Luis Fernandez, 57270673, 2023-1, 2.08, Reprobo
+Introduccion a la Economia, 3, Paula Diaz, 13972929, 2023-2, 2.21, Reprobo
+Derecho Constitucional, 3, Luis Lopez, 54882827, 2023-1, 1.08, Reprobo
+Lenguaje de Programacion I, 4, Jorge Diaz, 61607747, 2024-1, 2.01, Reprobo
+Tecnicas de Investigacion, 3, Laura Fernandez, 43793387, 2023-2, 2.06, Reprobo
+Algebra Abstracta, 5, Laura Garcia, 55443532, 2023-1, 3.48, Aprobo
+Tecnicas de Investigacion, 3, Laura Torres, 12352721, 2023-2, 3.32, Aprobo
+Calculo Integral, 5, Laura Fernandez, 43793387, 2023-2, 1.94, Reprobo
+Mecanica de Fluidos, 5, Juan Martinez, 88895175, 2024-1, 2.9, Reprobo
+Introduccion a la Economia, 3, Laura Garcia, 55443532, 2024-1, 3.76, Aprobo
+Quimica Organica, 4, Luisa Rodriguez, 98772998, 2023-1, 2.95, Reprobo
+Probabilidad y Estadistica, 4, Juan Fernandez, 66513963, 2024-1, 1.35, Reprobo
+Mecanica de Fluidos, 5, Paula Torres, 91509788, 2023-2, 3.24, Aprobo
+Algebra Abstracta, 5, Juan Fernandez, 66513963, 2023-2, 2.31, Reprobo
+Electronica I, 5, Laura Gomez, 42005949, 2023-2, 3.24, Aprobo
+Bioquimica, 5, Luis Rodriguez, 51017897, 2024-1, 3.17, Aprobo
+Ingenieria Economica, 4, Juan Garcia, 61757578, 2024-1, 2.88, Reprobo
+Analisis de Circuitos, 5, Paula Torres, 91509788, 2023-1, 2.69, Reprobo
+Ingenieria Economica, 4, Laura Fernandez, 43793387, 2023-2, 2.38, Reprobo
+Ingenieria Economica, 4, Juan Fernandez, 66513963, 2023-1, 2.57, Reprobo
+Lenguaje de Programacion I, 4, Maria Sanchez, 17618799, 2023-1, 1.83, Reprobo
+Derecho Mercantil, 3, Paula Torres, 30600652, 2023-1, 3.07, Aprobo
+Lenguaje de Programacion I, 4, Paula Fernandez, 29620056, 2023-1, 3.09, Aprobo
+Analisis de Circuitos, 5, Juan Martinez, 11765182, 2023-2, 3.22, Aprobo
+Electronica I, 5, Juan Martinez, 11765182, 2024-1, 2.89, Reprobo
+Analisis de Circuitos, 5, Luis Diaz, 91376265, 2023-2, 2.65, Reprobo
+Calculo Integral, 5, Paula Torres, 91509788, 2023-1, 2.92, Reprobo
+Psicologia General, 3, Maria Fernandez, 34340824, 2023-1, 1.87, Reprobo
+Historia de la Arquitectura, 4, Laura Garcia, 55443532, 2023-1, 3.28, Aprobo
+Derecho Constitucional, 3, Laura Garcia, 55443532, 2024-1, 3.63, Aprobo
+Mecanica de Fluidos, 5, Luis Rodriguez, 41461696, 2024-1, 2.56, Reprobo
+Derecho Constitucional, 3, Paula Rodriguez, 80188160, 2023-2, 2.71, Reprobo
+Calculo Diferencial, 5, Jorge Diaz, 61607747, 2024-1, 2.48, Reprobo
+Introduccion a la Economia, 3, Ana Garcia, 57800634, 2023-2, 2.03, Reprobo
+Mecanica de Fluidos, 5, Luis Lopez, 54882827, 2023-1, 2.22, Reprobo
+Bioquimica, 5, Juan Martinez, 88895175, 2024-1, 2.06, Reprobo
+Ingenieria Economica, 4, Paula Torres, 91509788, 2023-2, 2.97, Reprobo
+Calculo Diferencial, 5, Juan Garcia, 61757578, 2023-2, 3.33, Aprobo
+Psicologia General, 3, Luis Lopez, 54882827, 2023-1, 2.62, Reprobo
+Inteligencia Artificial, 5, Laura Perez, 82941247, 2024-1, 1.58, Reprobo
+Algebra Abstracta, 5, Jorge Gomez, 14829607, 2023-2, 2.56, Reprobo
+Electronica I, 5, Paula Fernandez, 29620056, 2023-2, 2.47, Reprobo
+Introduccion a la Economia, 3, Laura Diaz, 94453210, 2023-1, 1.71, Reprobo
+Quimica Organica, 4, Carlos Garcia, 82470149, 2023-2, 2.41, Reprobo
+Derecho Constitucional, 3, Maria Rodriguez, 17510991, 2023-2, 2.39, Reprobo
+Psicologia General, 3, Juan Garcia, 61275050, 2023-2, 3.46, Aprobo
+Analisis de Circuitos, 5, Paula Fernandez, 79883750, 2023-1, 2.57, Reprobo
+Derecho Mercantil, 3, Jorge Lopez, 26584671, 2024-1, 2.97, Reprobo
+Derecho Mercantil, 3, Maria Sanchez, 83062478, 2023-1, 2.24, Reprobo
+Calculo Integral, 5, Laura Gomez, 42005949, 2023-1, 2.63, Reprobo
+Historia de la Arquitectura, 4, Luisa Rodriguez, 70650160, 2023-2, 3.42, Aprobo
+Bioquimica, 5, Laura Diaz, 94453210, 2023-2, 3.11, Aprobo
+Calculo Integral, 5, Luis Rodriguez, 51017897, 2024-1, 2.15, Reprobo
+Lenguaje de Programacion I, 4, Maria Torres, 26508124, 2023-2, 3.36, Aprobo
+Ingenieria Economica, 4, Jorge Diaz, 61607747, 2023-1, 3.52, Aprobo
+Inteligencia Artificial, 5, Luis Diaz, 62063341, 2023-1, 2.39, Reprobo
+Psicologia General, 3, Paula Diaz, 13972929, 2023-1, 1.16, Reprobo
+Derecho Constitucional, 3, Luisa Torres, 11914824, 2023-1, 3.01, Aprobo
+Calculo Diferencial, 5, Luis Diaz, 62063341, 2024-1, 3.29, Aprobo
+Derecho Constitucional, 3, Luis Rodriguez, 41461696, 2023-2, 1.49, Reprobo
+Introduccion a la Economia, 3, Luis Diaz, 62063341, 2023-2, 3.15, Aprobo
+Geometria Analitica, 4, Luisa Sanchez, 42324675, 2024-1, 2.83, Reprobo
+Derecho Mercantil, 3, Luisa Diaz, 10435919, 2023-1, 1.15, Reprobo
+Derecho Mercantil, 3, Luis Diaz, 91376265, 2023-1, 3.49, Aprobo
+Introduccion a la Economia, 3, Maria Fernandez, 34340824, 2024-1, 1.65, Reprobo
+Mecanica de Fluidos, 5, Paula Garcia, 68022115, 2023-1, 1.72, Reprobo
+Calculo Integral, 5, Carlos Garcia, 27967568, 2024-1, 1.92, Reprobo
+Introduccion a la Economia, 3, Andres Rodriguez, 67794006, 2024-1, 1.92, Reprobo
+Filosofia, 2, Paula Diaz, 13972929, 2023-1, 1.85, Reprobo
+Calculo Diferencial, 5, Luisa Sanchez, 42324675, 2024-1, 2.3, Reprobo
+Mecanica de Fluidos, 5, Luis Lopez, 35603998, 2023-2, 1.96, Reprobo
+Historia de la Arquitectura, 4, Jorge Lopez, 26584671, 2024-1, 2.26, Reprobo
+Geometria Analitica, 4, Luis Fernandez, 57270673, 2023-2, 2.36, Reprobo
+Algebra Abstracta, 5, Luis Rodriguez, 51017897, 2023-2, 3.3, Aprobo
+Algebra Abstracta, 5, Juan Martinez, 88895175, 2023-2, 2.53, Reprobo
+Quimica Organica, 4, Carlos Garcia, 27967568, 2023-2, 3.25, Aprobo
+Calculo Diferencial, 5, Jorge Gomez, 74928873, 2023-2, 2.75, Reprobo
+Inteligencia Artificial, 5, Paula Fernandez, 79883750, 2024-1, 2.23, Reprobo
+Ingenieria Economica, 4, Paula Torres, 30600652, 2023-2, 3.88, Aprobo
+Analisis de Circuitos, 5, Ana Garcia, 57800634, 2023-1, 2.13, Reprobo
+Electronica I, 5, Paula Sanchez, 51105807, 2024-1, 1.66, Reprobo
+Tecnicas de Investigacion, 3, Luis Fernandez, 50196277, 2024-1, 3.38, Aprobo
+Algebra Abstracta, 5, Paula Fernandez, 79883750, 2024-1, 1.79, Reprobo
+Derecho Mercantil, 3, Laura Fernandez, 43793387, 2023-2, 3.93, Aprobo
+Introduccion a la Economia, 3, Maria Rodriguez, 17510991, 2023-2, 3.32, Aprobo
+Historia de la Arquitectura, 4, Luis Diaz, 62063341, 2023-2, 1.78, Reprobo
+Analisis de Circuitos, 5, Juan Torres, 90274776, 2024-1, 2.58, Reprobo
+Lenguaje de Programacion I, 4, Luis Diaz, 62063341, 2024-1, 2.06, Reprobo
+Ingenieria Economica, 4, Juan Martinez, 88895175, 2024-1, 2.46, Reprobo
+Psicologia General, 3, Juan Fernandez, 66513963, 2023-2, 2.98, Reprobo
+Ingenieria Economica, 4, Andres Gomez, 84252301, 2024-1, 2.5, Reprobo
+Quimica Organica, 4, Carlos Lopez, 13992761, 2024-1, 1.33, Reprobo
+Ingenieria Economica, 4, Luisa Rodriguez, 70650160, 2023-2, 1.73, Reprobo
+Quimica Organica, 4, Luisa Rodriguez, 70650160, 2023-2, 1.62, Reprobo
+Probabilidad y Estadistica, 4, Laura Gomez, 42005949, 2023-2, 2.47, Reprobo
+Psicologia General, 3, Maria Sanchez, 17618799, 2023-2, 1.38, Reprobo
+Algebra Abstracta, 5, Luis Perez, 30613813, 2023-2, 3.13, Aprobo
+Historia de la Arquitectura, 4, Laura Perez, 82941247, 2023-1, 2.3, Reprobo
+Ingenieria Economica, 4, Luis Fernandez, 33343873, 2023-2, 4.2, Aprobo
+Psicologia General, 3, Luis Diaz, 11618847, 2023-1, 1.61, Reprobo
+Lenguaje de Programacion I, 4, Juan Torres, 90274776, 2023-1, 3.14, Aprobo
+Inteligencia Artificial, 5, Andres Gomez, 84252301, 2024-1, 2.47, Reprobo
+Filosofia, 2, Carlos Lopez, 13992761, 2023-1, 2.86, Reprobo
+Introduccion a la Economia, 3, Ana Sanchez, 93613711, 2023-1, 1.93, Reprobo
+Derecho Mercantil, 3, Laura Perez, 82941247, 2024-1, 3.25, Aprobo
+Introduccion a la Economia, 3, Paula Torres, 30600652, 2023-2, 3.03, Aprobo
+Introduccion a la Economia, 3, Juan Martinez, 11765182, 2023-2, 2.42, Reprobo
+Inteligencia Artificial, 5, Juan Torres, 90274776, 2023-1, 2.49, Reprobo
+Lenguaje de Programacion I, 4, Luis Rodriguez, 41461696, 2023-2, 2.75, Reprobo
+Inteligencia Artificial, 5, Andres Rodriguez, 67794006, 2023-2, 2.38, Reprobo
+Calculo Diferencial, 5, Maria Fernandez, 34340824, 2023-2, 2.33, Reprobo
+Psicologia General, 3, Andres Rodriguez, 67794006, 2024-1, 2.86, Reprobo
+Analisis de Circuitos, 5, Carlos Garcia, 82470149, 2024-1, 3.14, Aprobo
+Calculo Diferencial, 5, Laura Torres, 12352721, 2023-1, 2.47, Reprobo
+Lenguaje de Programacion I, 4, Maria Lopez, 79792218, 2023-1, 2.89, Reprobo
+Probabilidad y Estadistica, 4, Laura Fernandez, 43793387, 2024-1, 1.85, Reprobo
+Psicologia General, 3, Luisa Rodriguez, 98772998, 2024-1, 2.84, Reprobo
+Probabilidad y Estadistica, 4, Luisa Rodriguez, 98772998, 2024-1, 3.37, Aprobo
