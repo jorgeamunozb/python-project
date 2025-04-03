@@ -108,11 +108,12 @@ try:
             nota = float(nota)
             calificacion = Calificacion(porcentaje = porcentaje, nota = nota)
             registro.agregar_calificacion(calificacion = calificacion) 
+
+        sistema.toReportByMateriaPeriodo(registro)
+        
     print("Leido")
 except Exception as e:
     print("Error al leer el archivo calificaciones")
 finally:
     file_calificaionesAc.close()
 #sistema.toReportByEstudiante
-
-sistema.toReportByMateriaPeriodo(id_materia, periodo)
